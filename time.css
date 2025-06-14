@@ -1,11 +1,10 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Wallpaper-Black-Wallpaper-HD-Free-download.jpg");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://www.hdwallpapers.in/download/stars_black_sky_hd_black_aesthetic-1600x900.jpg");
+  background-color: #545351;
+  text-align: center;
   margin: 0;
+  padding: 30px;
 }
 
 .container {
