@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Wallpaper-Black-Wallpaper-HD-Free-download.jpg");
+  background-color: #545351;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+h1 {
+  font-family: fantasy;
+  color: #f9f6f4;
+}
+
+.calendar-container {
+  background: rgb(122, 121, 119);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.calendar-header select {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.day {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  background: #6d6d6d;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.date {
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: 8px;
+}

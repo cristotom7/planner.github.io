@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+
+  <h1>Calendar</h1>
+
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <select id="month"></select>
+      <select id="year"></select>
+    </div>
+
+    <div class="calendar" id="calendar"></div>
+
+    <div class="reminder-panel">
+      <h3 id="selectedDate">Selected Date</h3>
+      <ul id="reminder-list"></ul>
+      <div class="add-reminder-box">
+        <input type="text" id="reminder-input" placeholder="Add reminder..." />
+        <button onclick="addReminder()">Add</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="cal.js"></script>
+</body>
+</html>
